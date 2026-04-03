@@ -258,7 +258,7 @@ h1, h2, h3, h4, .logo {
 
 /* General Sections */
 .section {
-    padding: 100px 10%;
+    padding: 50px 10%;
 }
 
 .section-title {
@@ -481,20 +481,61 @@ footer {
     }
     
     .title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .section {
+        padding: 50px 5%;
+    }
+
+    .hero {
+        padding-top: 100px;
+        min-height: auto;
+        padding-bottom: 50px;
+    }
+
+    .image-wrapper {
+        width: 250px;
+        height: 250px;
     }
 
     .timeline::before {
-        left: 30px;
+        left: 10px;
     }
 
     .timeline-item {
-        padding-left: 45px !important;
+        padding-left: 35px !important;
         padding: 20px;
+        margin-bottom: 20px;
     }
 
     .timeline-dot {
-        left: 23px;
+        left: 3px;
         top: 25px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .secondary-btn {
+        margin-left: 0;
+    }
+
+    .contact-item {
+        font-size: 1rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contact-item i {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 30px;
     }
 }
